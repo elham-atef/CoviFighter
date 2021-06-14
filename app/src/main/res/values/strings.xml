@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CoviFighter</string>
+    <string name="Home">Home</string>
+    <string name="Cases">Cases</string>
+    <string name="Tracker">Tracker</string>
+    <string name="Advices">Advices</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
