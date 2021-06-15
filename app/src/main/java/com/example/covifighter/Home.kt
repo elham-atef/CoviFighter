@@ -1,7 +1,10 @@
 package com.example.covifighter
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -21,7 +24,7 @@ class Home : AppCompatActivity() {
                 pushFragment(AdvicesFragment())
             }
 
-            true; // item selected ^setOnNavigationItemSelectedListener
+            true; // item selected
         }
         navigation.selectedItemId = R.id.navigation_home
     }
@@ -32,4 +35,6 @@ class Home : AppCompatActivity() {
             .replace(R.id.fragment_container,fragment)
             .commit()
     }
+
+
 }
