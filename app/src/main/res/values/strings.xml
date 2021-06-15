@@ -6,4 +6,17 @@
     <string name="Advices">Advices</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Clean_your_hands">Clean your hands often. Use soap and water, or an alcohol-based hand rub</string>
+    <string name="Maintain_a_safe_distance">Maintain a safe distance from anyone who is coughing or sneezing</string>
+    <string name="Wear_a_mask">Wear a mask when physical distancing is not possible</string>
+    <string name="Do_not_touch_your_eyes">Don’t touch your eyes, nose or mouth</string>
+    <string name="sneeze">Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze</string>
+    <string name="Stay_home_if_you_feel_unwell">Stay home if you feel unwell</string>
+    <string name="seek_medical_attention">If you have a fever, cough and difficulty breathing, seek medical attention</string>
+    <string name="eygept_cases">Eygept Cases</string>
+    <string name="egyption_cases">Egyption Cases</string>
+    <string name="the_latest_news">The Latest News</string>
+    <string name="global_cases">Global Cases</string>
+    <string name="advices">Advices</string>
 </resources>
