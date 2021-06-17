@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.core.content.ContextCompat.startActivity
 import kotlinx.android.synthetic.main.fragment_cases.*
 
@@ -50,7 +51,7 @@ class CasesFragment : Fragment() {
     }
 
     //explicet intent -> go to url link
-//for egyption cases
+    //for egyption cases
     private fun openCasesWebsite(view: View) {
         val browserIntent = Intent(
             Intent.ACTION_VIEW,
@@ -60,7 +61,7 @@ class CasesFragment : Fragment() {
     }
 
     //explicet intent -> go to url link
-//for latest news
+    //for latest news
     private fun openNewsWibsite(view: View) {
         val browserIntent = Intent(
             Intent.ACTION_VIEW,
@@ -71,7 +72,7 @@ class CasesFragment : Fragment() {
     }
 
     //explicet intent -> go to url link
-//for global cases
+    //for global cases
     private fun openGcasesWibsite(view: View) {
         val browserIntent = Intent(
             Intent.ACTION_VIEW,

@@ -4,8 +4,132 @@
     <string name="Cases">Cases</string>
     <string name="Tracker">Tracker</string>
     <string name="Advices">Advices</string>
+    <string name="What_is_Covid19">What is COVID-19?</string>
+    <string name="Check_Yourself">Check Yourself</string>
+    <string name="About">About</string>
+    <string name="home_quarantine_rules">Home Quarantine Rules</string>
+    <string name="home_quarantine_rules_title">HOME QUARANTINE RULES</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question_1">What is COVID-19?</string>
+    <string name="answer_1">"COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.  WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of ‘viral pneumonia’ in Wuhan, People’s Republic of China."
+</string>
+    <string name="question_2">What are the symptoms of COVID-19?</string>
+    <string name="answer_2">"The most common symptoms of COVID-19 are :-
+
+Fever
+Dry cough
+Fatigue
+
+Other symptoms that are less common and may affect some patients include:
+
+Loss of taste or smell,
+Nasal congestion,
+Conjunctivitis (also known as red eyes)
+Sore throat,
+Headache,
+Muscle or joint pain,
+Different types of skin rash,
+Nausea or vomiting,
+Diarrhea,
+Chills or dizziness.
+
+
+Symptoms of severe COVID‐19 disease include:
+
+Shortness of breath,
+Loss of appetite,
+Confusion,
+Persistent pain or pressure in the chest,
+High temperature (above 38 °C).
+
+Other less common symptoms are:
+
+Irritability,
+Confusion,
+Reduced consciousness (sometimes associated with seizures),
+Anxiety,
+Depression,
+Sleep disorders,
+More severe and rare neurological complications such as strokes, brain inflammation, delirium and nerve damage.
+People of all ages who experience fever and/or cough associated with difficulty breathing or shortness of breath, chest pain or pressure, or loss of speech or movement should seek medical care immediately. If possible, call your health care provider, hotline or health facility first, so you can be directed to the right clinic."
+</string>
+    <string name="question_3">What happens to people who get COVID-19?</string>
+    <string name="answer_3">"Among those who develop symptoms, most (about 80%) recover from the disease without needing hospital treatment. About 15% become seriously ill and require oxygen and 5% become critically ill and need intensive care.
+
+Complications leading to death may include respiratory failure, acute respiratory distress syndrome (ARDS), sepsis and septic shock, thromboembolism, and/or multiorgan failure, including injury of the heart, liver or kidneys.
+
+In rare situations, children can develop a severe inflammatory syndrome a few weeks after infection." </string>
+    <string name="question_4">Is there a treatment for a novel coronavirus?</string>
+    <string name="answer_4">"There is no specific treatment for disease caused by a novel coronavirus. However, many of the symptoms can be treated and therefore treatment based on the patient’s clinical condition. Moreover, supportive care for infected persons can be highly effective."</string>
+    <string name="question_5">Is there a vaccine for a novel coronavirus?</string>
+    <string name="answer_5">"Yes there are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and the number of vaccination doses administered is updated on a daily basis here. At least 13 different vaccines (across 4 platforms) have been administered.
+
+The Pfizer/BioNtech Comirnaty vaccine was listed for WHO Emergency Use Listing (EUL) on 31 December 2020. The SII/Covishield and AstraZeneca/AZD1222 vaccines (developed by AstraZeneca/Oxford and manufactured by the State Institute of India and SK Bio respectively) were given EUL on 16 February. The Janssen/Ad26.COV 2.S developed by Johnson and Johnson, was listed for EUL on 12 March 2021. The Moderna COVID-19 vaccine (mRNA 1273) was listed for EUL on 30 April 2021 and the Sinopharm COVID-19 vaccine was listed for EUL on 7 May 2021. The Sinopharm vaccine is produced by Beijing Bio-Institute of Biological Products Co Ltd, subsidiary of China National Biotec Group (CNBG). The Sinovac-CoronaVac was listed for EUL on 1 June 2021."</string>
+    <string name="question_6">"What can I do to protect myself?"</string>
+    <string name="answer_6">"Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand and respiratory hygiene, and safe food practices  and avoiding close contact, when possible, with anyone showing symptoms of respiratory illness such as coughing and sneezing."</string>
+    <string name="quarantine_instraction">"Who should be quarantined?
+
+The World Health Organization recommends that all contacts of individuals with confirmed or probable COVID-19 infection be isolated in a designated facility or at home for a period of 14 days counting from last exposure.
+
+Quarantine instructions:-
+
+1. Patient must isolate himself from other household members, stay in the identified room and away from other people in home, especially elderlies and those with co-morbid conditions like hypertension, cardiovascular disease, renal disease etc.
+
+2. Such cases should have the requisite facility at their residence for self-isolation and for quarantining the family contacts.
+
+3. A care giver should be available to provide care on 24 x7 basis. A communication link between the caregiver and hospital is a prerequisite for the entire duration of home isolation.
+
+4. The patient should be kept in a well-ventilated room with cross ventilation and windows should be kept open to allow fresh air to come in.
+
+5. Providing the patient with sufficient food, water, prevention, hygiene and communication during the quarantine period.
+
+6. Possibility of implementing infection prevention and control measures.
+
+7. Patient should at all times use triple layer medical mask. Discard mask after 8 hours of use or earlier if they become wet or visibly soiled. In the event of care giver entering the room, both care giver and patient may consider using N 95 mask.
+
+8. Mask should be discarded only after disinfecting it with 1% Sodium Hypochlorite.
+
+9. Patient must take rest and drink lot of fluids to maintain adequate hydration.
+
+10. Follow respiratory etiquettes at all times.
+
+11. Frequent hand washing with soap and water for at least 40 seconds or clean with alcohol-based sanitizer.
+
+12. Don’t share personal items with other people in the household.
+
+13. Ensure cleaning of surfaces in the room that are touched often (tabletops, doorknobs, handles, etc.) with 1% hypochlorite solution.
+
+14. Self-monitoring of blood oxygen saturation with a pulse oximeter is strongly advised.
+
+15. The patient will self-monitor his/her health with daily temperature monitoring and report promptly.
+
+16. Elderly patients aged more than 60 years and those with co morbid conditions such as Hypertension, Diabetes, Heart disease, Chronic lung/liver/ kidney disease, Cerebro-vascular disease etc shall only be allowed home isolation after proper evaluation by the treating medical officer.
+
+17. Patients suffering from immune compromised status (HIV, Transplant recipients, Cancer therapy etc.) are not recommended for home isolation and shall only be allowed home isolation after proper evaluation by the treating medical officer.
+
+18. The care giver and all close contacts of such cases should take Hydroxychloroquine prophylaxis as per protocol and as prescribed by the treating medical officer.
+
+19. Psychosocial support should be provided to the patient.
+
+20. If possible, the Internet, news and entertainment should be provided.
+
+21. Communal use of space, crockery and cutting tools should be minimized, and common spaces (eg kitchen and bathroom) should be well ventilated."</string>
+    <string name="you_are_fine">"You are fine!
+Don't forget to follow the instructions."</string>
+    <string name="you_are_sick">"You are sick!
+Go to the nearest hospital."
+    </string>
+    <string name="covid_check_in">COVID Check-In</string>
+    <string name="do_you_have_any_of_the_following">Do you have any of the following?</string>
+    <string name="fever_100_4">Fever (100.4+)</string>
+    <string name="feverish_chills_shaking">Feverish(chills,shaking)</string>
+    <string name="cough">Cough</string>
+    <string name="mild_or_moderate_difficulty_breathing">Mild or moderate difficulty breathing</string>
+    <string name="fatique">Fatique</string>
+    <string name="sore_throat">Sore Throat</string>
+    <string name="continue_text">Continue</string>
+    <string name="ok_text">OK</string>
 
     <string name="Clean_your_hands">Clean your hands often. Use soap and water, or an alcohol-based hand rub</string>
     <string name="Maintain_a_safe_distance">Maintain a safe distance from anyone who is coughing or sneezing</string>
@@ -14,6 +138,7 @@
     <string name="sneeze">Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze</string>
     <string name="Stay_home_if_you_feel_unwell">Stay home if you feel unwell</string>
     <string name="seek_medical_attention">If you have a fever, cough and difficulty breathing, seek medical attention</string>
+
 
 
     <string name="egyption_cases">Egyption Cases</string>
