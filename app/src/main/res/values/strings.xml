@@ -6,4 +6,7 @@
     <string name="Advices">Advices</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="global_cases">Global Cases</string>
+    <string name="egyption_cases">Egyption Cases</string>
+    <string name="the_latest_news">The Latest News</string>
 </resources>
