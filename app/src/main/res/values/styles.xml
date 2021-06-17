@@ -19,6 +19,9 @@
         <item name="android:layout_height">200dp</item>
         <item name="android:layout_margin">15dp</item>
         <item name="cardCornerRadius">10dp</item>   
+        <item name="android:layout_margin">20dp</item>
+        <item name="cardElevation">15dp</item>
+
     </style>
 
     //styling for text
@@ -32,5 +35,6 @@
         <item name="android:textStyle">bold</item>
 
     </style>
+
 
 </resources>
