@@ -4,11 +4,13 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+
 import androidx.core.content.ContextCompat.startActivity
+
+
 import kotlinx.android.synthetic.main.fragment_cases.*
 
 class CasesFragment : Fragment() {
@@ -43,7 +45,9 @@ class CasesFragment : Fragment() {
         //when card is pressed go to url link
         card_4.setOnClickListener(View.OnClickListener {
             openVaccineWibsite(view)
-        })
+
+
+        
 
 
 
@@ -56,6 +60,8 @@ class CasesFragment : Fragment() {
             Intent.ACTION_VIEW,
             Uri.parse("https://www.care.gov.eg/EgyptCare/index.aspx")
         )
+
+   
         startActivity(browserIntent)
     }
 
@@ -77,6 +83,7 @@ class CasesFragment : Fragment() {
             Intent.ACTION_VIEW,
             Uri.parse("https://dailymedicalinfo.com/coronavirus/")
         )
+   
         startActivity(browserIntent)
 
     }
@@ -91,4 +98,5 @@ class CasesFragment : Fragment() {
         startActivity(browserIntent)
 
     }
+
 }
