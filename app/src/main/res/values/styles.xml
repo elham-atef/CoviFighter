@@ -15,13 +15,13 @@
 
     //styling for card view
     <style name="CardStyle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">80dp</item>
-        <item name="layout_constraintEnd_toEndOf">parent</item>
-        <item name="layout_constraintStart_toStartOf">parent</item>
-        <item name="cardCornerRadius">10dp</item>
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="cardCornerRadius">10dp</item>   
         <item name="android:layout_margin">20dp</item>
         <item name="cardElevation">15dp</item>
+
     </style>
 
     //styling for text
