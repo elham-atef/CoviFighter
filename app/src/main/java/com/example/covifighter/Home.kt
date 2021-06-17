@@ -3,6 +3,7 @@ package com.example.covifighter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.google.android.material.internal.ContextUtils.getActivity
 import kotlinx.android.synthetic.main.activity_home.*
 
 class Home : AppCompatActivity() {
@@ -10,26 +11,28 @@ class Home : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
         // check which item selected to open its fragment
-        navigation.setOnNavigationItemSelectedListener { item->
-            if(item.itemId==R.id.navigation_home){
+        navigation.setOnNavigationItemSelectedListener { item ->
+            if (item.itemId == R.id.navigation_home) {
                 pushFragment(HomeFragment())
-            }else if(item.itemId==R.id.navigation_cases){
+            } else if (item.itemId == R.id.navigation_cases) {
                 pushFragment(CasesFragment())
-            }else if (item.itemId==R.id.navigation_tracker){
+            } else if (item.itemId == R.id.navigation_tracker) {
                 pushFragment(TrackerFragment())
-            }else if(item.itemId==R.id.navigation_advices){
+            } else if (item.itemId == R.id.navigation_advices) {
                 pushFragment(AdvicesFragment())
             }
 
-            true; // item selected ^setOnNavigationItemSelectedListener
+            true; // item selected
         }
         navigation.selectedItemId = R.id.navigation_home
     }
+
     // fun that push fragment of item selected
-    fun pushFragment(fragment: Fragment){
+    fun pushFragment(fragment: Fragment) {
         supportFragmentManager
             .beginTransaction()
-            .replace(R.id.fragment_container,fragment)
+            .replace(R.id.fragment_container, fragment)
             .commit()
     }
+
 }

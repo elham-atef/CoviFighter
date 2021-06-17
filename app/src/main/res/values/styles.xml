@@ -12,6 +12,4 @@
         <item name="windowNoTitle">true</item>
         <item name="background">@color/colorWhite</item>
     </style>
-
-    <color name="colorWhite">#ffff</color>
 </resources>

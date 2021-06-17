@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home"></activity>
-
-        <activity android:name=".splashScreen"
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".CoronaActivity" />
+        <activity android:name=".CheckYourselfActivity"></activity>
+        <activity android:name=".QuarantineRulesActivity"></activity>
+        <activity android:name=".YouAreFineActivity"></activity>
+        <activity android:name=".YouAreSickActivity"></activity>
+        <activity android:name=".Home" />
+        <activity
+            android:name=".splashScreen"
             android:theme="@style/AppTheme.noActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
