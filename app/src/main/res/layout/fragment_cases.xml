@@ -20,16 +20,15 @@
         app:layout_constraintTop_toTopOf="parent"
 
         />
-
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guide1"
+        android:id="@+id/g_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5"
         />
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guide2"
+        android:id="@+id/g_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -41,8 +40,8 @@
         android:id="@+id/card_1"
         style="@style/CardStyle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/guide1"
-        app:layout_constraintBottom_toTopOf="@id/guide2"
+        app:layout_constraintEnd_toStartOf="@id/g_1"
+        app:layout_constraintBottom_toTopOf="@id/g_2"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -56,8 +55,8 @@
         android:id="@+id/card_2"
         style="@style/CardStyle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/guide1"
-        app:layout_constraintBottom_toTopOf="@id/guide2"
+        app:layout_constraintStart_toEndOf="@id/g_1"
+        app:layout_constraintBottom_toTopOf="@id/g_2"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -71,8 +70,8 @@
         android:id="@+id/card_3"
         style="@style/CardStyle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/guide1"
-        app:layout_constraintTop_toBottomOf="@id/guide2"
+        app:layout_constraintStart_toEndOf="@id/g_1"
+        app:layout_constraintTop_toBottomOf="@id/g_2"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -86,8 +85,8 @@
         android:id="@+id/card_4"
         style="@style/CardStyle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/guide1"
-        app:layout_constraintTop_toBottomOf="@id/guide2"
+        app:e="@id/g_1"
+        app:layout_constraintTop_toBottomOf="@id/g_2"
         tools:ignore="MissingConstraints">
 
         <TextView
