@@ -44,6 +44,12 @@
         app:layout_constraintBottom_toTopOf="@id/g_2"
         tools:ignore="MissingConstraints">
 
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/map"
+            android:layout_gravity="center_horizontal"
+            />
         <TextView
             android:id="@+id/text_1"
             style="@style/TextStyle"
@@ -58,6 +64,14 @@
         app:layout_constraintStart_toEndOf="@id/g_1"
         app:layout_constraintBottom_toTopOf="@id/g_2"
         tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/flag"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            />
 
         <TextView
             android:id="@+id/text_2"
@@ -74,6 +88,14 @@
         app:layout_constraintTop_toBottomOf="@id/g_2"
         tools:ignore="MissingConstraints">
 
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/news"
+            android:layout_gravity="center_horizontal"
+            />
+
         <TextView
             android:id="@+id/text_3"
             style="@style/TextStyle"
@@ -85,9 +107,17 @@
         android:id="@+id/card_4"
         style="@style/CardStyle"
         app:layout_constraintStart_toStartOf="parent"
-        app:e="@id/g_1"
+        app:layout_constraintEnd_toStartOf="@id/g_1"
         app:layout_constraintTop_toBottomOf="@id/g_2"
         tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/vaccine"
+            android:layout_gravity="center_horizontal"
+            />
 
         <TextView
             android:id="@+id/text_4"
