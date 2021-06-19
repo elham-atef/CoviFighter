@@ -18,14 +18,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TitleTextQStyle"
             android:layout_gravity="center"
             android:layout_margin="8dp"
-            android:text="@string/home_quarantine_rules_title"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/colorBlack"/>
+            android:text="@string/home_quarantine_rules_title"/>
 
         <ImageView
             android:layout_width="195dp"
@@ -43,12 +39,9 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TitleTextQStyle"
                 android:layout_margin="10dp"
-                android:text="@string/quarantine_instraction"
-                android:textSize="18sp"
-                android:textColor="@color/colorBlack"/>
+                android:text="@string/quarantine_instraction" />
 
         </ScrollView>
 

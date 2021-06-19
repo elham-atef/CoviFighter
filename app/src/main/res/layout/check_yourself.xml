@@ -1,114 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
     tools:context=".CheckYourselfActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="@string/covid_check_in"
-        android:textColor="@color/colorBlack"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <androidx.cardview.widget.CardView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="@color/colorWhite"
-        app:cardCornerRadius="20dp"
-        app:cardPreventCornerOverlap="true"
-        app:cardUseCompatPadding="true">
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+        <TextView
+            style="@style/TitleTextQStyle"
             android:layout_margin="20dp"
-            android:orientation="vertical">
+            android:text="@string/covid_check_up"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:buttonTint="#9370db"
-                android:text="@string/do_you_have_any_of_the_following"
-                android:textColor="@color/colorBlack"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="20dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
 
-            <CheckBox
-                android:id="@+id/checkbox_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="12dp"
-                android:buttonTint="#9370db"
-                android:onClick="onCheckboxClicked"
-                android:text="@string/fever_100_4"
-                android:textColor="@color/colorBlack" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
 
-            <CheckBox
-                android:id="@+id/checkbox_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="12dp"
-                android:buttonTint="#9370db"
-                android:onClick="onCheckboxClicked"
-                android:text="@string/feverish_chills_shaking"
-                android:textColor="@color/colorBlack" />
+                <TextView
+                    style="@style/TitleTextQStyle"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="@string/do_you_have_any_of_the_following" />
 
-            <CheckBox
-                android:id="@+id/checkbox_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="12dp"
-                android:buttonTint="#9370db"
-                android:onClick="onCheckboxClicked"
-                android:text="@string/cough"
-                android:textColor="@color/colorBlack" />
+                <CheckBox
+                    android:id="@+id/checkbox_1"
+                    style="@style/CheckBoxStyle"
+                    android:backgroundTint="@color/colorCheckBox"
+                    android:text="@string/checkbox_text_1" />
 
-            <CheckBox
-                android:id="@+id/checkbox_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="12dp"
-                android:buttonTint="#9370db"
-                android:onClick="onCheckboxClicked"
-                android:text="@string/mild_or_moderate_difficulty_breathing"
-                android:textColor="@color/colorBlack" />
+                <CheckBox
+                    android:id="@+id/checkbox_2"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_text_2" />
 
-            <CheckBox
-                android:id="@+id/checkbox_5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="12dp"
-                android:buttonTint="#9370db"
-                android:onClick="onCheckboxClicked"
-                android:text="@string/fatique"
-                android:textColor="@color/colorBlack" />
+                <CheckBox
+                    android:id="@+id/checkbox_3"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_text_3" />
 
-            <CheckBox
-                android:id="@+id/checkbox_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="12dp"
-                android:buttonTint="#9370db"
-                android:onClick="onCheckboxClicked"
-                android:text="@string/sore_throat"
-                android:textColor="@color/colorBlack" />
+                <CheckBox
+                    android:id="@+id/checkbox_4"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_text_4" />
 
-            <Button
-                android:id="@+id/continue_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="#9370db"
-                android:text="@string/continue_text"
-                android:textColor="@color/colorWhite" />
-        </LinearLayout>
+                <CheckBox
+                    android:id="@+id/checkbox_5"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_text_5" />
 
-    </androidx.cardview.widget.CardView>
-</LinearLayout>
+                <CheckBox
+                    android:id="@+id/checkbox_6"
+                    style="@style/CheckBoxStyle"
+                    android:text="@string/checkbox_text_6" />
+
+                <Button
+                    android:id="@+id/continue_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#9370db"
+                    android:text="@string/continue_text"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

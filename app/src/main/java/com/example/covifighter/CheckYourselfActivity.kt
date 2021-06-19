@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.CheckBox
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.check_yourself.*
 
 
@@ -16,6 +14,8 @@ class CheckYourselfActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.check_yourself)
+
+        //************************
         // continue button is Clicked
         continue_button.setOnClickListener {
             // compare count value with number2, if lower then go to YouAreFineActivity
@@ -29,7 +29,7 @@ class CheckYourselfActivity : AppCompatActivity() {
                 intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 startActivity(intent)
             }
-            // call function
+            // call function to clear the count value, set checkBox to be unchecked
             ifBack()
         }
     }
@@ -46,21 +46,24 @@ class CheckYourselfActivity : AppCompatActivity() {
             count - 1
         }
     }
-    fun ifBack(){
+    // clear the count value, set checkBoxes to be not checked
+    fun ifBack() {
         count = 0
-        checkbox_1.setChecked(false)
-        checkbox_2.setChecked(false)
-        checkbox_3.setChecked(false)
-        checkbox_4.setChecked(false)
-        checkbox_5.setChecked(false)
-        checkbox_6.setChecked(false)
+        // create list of checkBoxes
+        val checkBoxesList: List<CheckBox> =
+            listOf(checkbox_1, checkbox_2, checkbox_3, checkbox_4, checkbox_5, checkbox_6)
+        // create for loop to set all checkBoxes in the list to be unchecked
+        // so if user returns back, the checkBoxes are reset
+        for (i in checkBoxesList) {
+            i.setChecked(false)
+        }
     }
+    // if Back Button is pressed, return to home
     override fun onBackPressed() {
         super.onBackPressed()
         val intent = Intent(this, Home::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
         finish()
-
     }
 }
