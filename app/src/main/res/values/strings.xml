@@ -65,7 +65,7 @@ In rare situations, children can develop a severe inflammatory syndrome a few we
 
 The Pfizer/BioNtech Comirnaty vaccine was listed for WHO Emergency Use Listing (EUL) on 31 December 2020. The SII/Covishield and AstraZeneca/AZD1222 vaccines (developed by AstraZeneca/Oxford and manufactured by the State Institute of India and SK Bio respectively) were given EUL on 16 February. The Janssen/Ad26.COV 2.S developed by Johnson and Johnson, was listed for EUL on 12 March 2021. The Moderna COVID-19 vaccine (mRNA 1273) was listed for EUL on 30 April 2021 and the Sinopharm COVID-19 vaccine was listed for EUL on 7 May 2021. The Sinopharm vaccine is produced by Beijing Bio-Institute of Biological Products Co Ltd, subsidiary of China National Biotec Group (CNBG). The Sinovac-CoronaVac was listed for EUL on 1 June 2021."</string>
     <string name="question_6">"What can I do to protect myself?"</string>
-    <string name="answer_6">"Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand and respiratory hygiene, and safe food practices  and avoiding close contact, when possible, with anyone showing symptoms of respiratory illness such as coughing and sneezing."</string>
+    <string name="answer_6">"Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand and respiratory hygiene, and safe food practices  and avoiding close contact, when possible, with anyone showing symptoms of respiratory illness such as coughing and sneezing. \n \n "</string>
     <string name="quarantine_instraction">"Who should be quarantined?
 
 The World Health Organization recommends that all contacts of individuals with confirmed or probable COVID-19 infection be isolated in a designated facility or at home for a period of 14 days counting from last exposure.
@@ -112,7 +112,7 @@ Quarantine instructions:-
 
 20. If possible, the Internet, news and entertainment should be provided.
 
-21. Communal use of space, crockery and cutting tools should be minimized, and common spaces (eg kitchen and bathroom) should be well ventilated."</string>
+21. Communal use of space, crockery and cutting tools should be minimized, and common spaces (eg kitchen and bathroom) should be well ventilated. \n "</string>
     <string name="you_are_fine">"You are fine!
 Don't forget to follow the instructions."</string>
     <string name="you_are_sick">"You are sick!

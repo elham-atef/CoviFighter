@@ -6,30 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".TesterAdvices">
 
-    <TextView
-        android:id="@+id/advices"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="8dp"
-        android:text="@string/Advices"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:textColor="@color/colorBlack"
-        android:gravity="start"
-
-        />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/advices"
+        android:layout_height="match_parent"
         android:layout_margin="8dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="vertical"
         tools:context=".TesterAdvices"/>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
