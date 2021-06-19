@@ -142,4 +142,10 @@ Go to the nearest hospital."
     <string name="the_latest_news">The Latest News</string>
 
 
+
+    <string name="egyption_cases">Egyption Cases</string>
+    <string name="the_latest_news">The Latest News</string>
+    <string name="global_cases">Global Cases</string>
+    <string name="advices">Advices</string>
+    <string name="vaccine_link">vaccine link</string>
 </resources>
