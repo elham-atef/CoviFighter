@@ -35,16 +35,13 @@
                 android:src="@drawable/fine" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TitleTextQStyle"
                 android:layout_gravity="bottom|center"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:text="@string/you_are_fine"
                 android:textAlignment="center"
-                android:textColor="@color/colorBlack"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textSize="18sp" />
             <Button
                 android:id="@+id/ok_fine_button"
                 android:layout_width="wrap_content"

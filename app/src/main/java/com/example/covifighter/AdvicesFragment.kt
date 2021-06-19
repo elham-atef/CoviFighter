@@ -32,6 +32,7 @@ open class AdvicesFragment : Fragment() {
 
             //intent to go from fragment which is not activity -> to recycler activity (TesterAdvices)
             val intent = Intent(context, TesterAdvices::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
         }, 0)
 

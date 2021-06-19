@@ -14,17 +14,18 @@
     </style>
 
     //styling for card view
+
     <style name="CardStyle">
         <item name="android:layout_width">170dp</item>
         <item name="android:layout_height">200dp</item>
-        <item name="android:layout_margin">15dp</item>
-        <item name="cardCornerRadius">10dp</item>   
+        <item name="cardCornerRadius">10dp</item>
         <item name="android:layout_margin">20dp</item>
         <item name="cardElevation">15dp</item>
 
     </style>
 
     //styling for text
+
     <style name="TextStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -34,6 +35,35 @@
         <item name="android:textColor">@color/colorBlack</item>
         <item name="android:textStyle">bold</item>
 
+    </style>
+
+    <style name="TextCovidDefinitionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+
+    </style>
+
+    <style name="TitleTextQStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">8dp</item>
+
+    </style>
+
+    <style name="HomeTextQStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">18dp</item>
+        <item name="android:padding">20dp</item>
     </style>
 
 

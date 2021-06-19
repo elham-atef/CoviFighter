@@ -9,7 +9,6 @@
     <string name="About">About</string>
     <string name="home_quarantine_rules">Home Quarantine Rules</string>
     <string name="home_quarantine_rules_title">HOME QUARANTINE RULES</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="question_1">What is COVID-19?</string>
     <string name="answer_1">"COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.  WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of ‘viral pneumonia’ in Wuhan, People’s Republic of China."
@@ -33,7 +32,6 @@ Different types of skin rash,
 Nausea or vomiting,
 Diarrhea,
 Chills or dizziness.
-
 
 Symptoms of severe COVID‐19 disease include:
 
@@ -120,14 +118,14 @@ Don't forget to follow the instructions."</string>
     <string name="you_are_sick">"You are sick!
 Go to the nearest hospital."
     </string>
-    <string name="covid_check_in">COVID Check-In</string>
+    <string name="covid_check_up">COVID Check-Up</string>
     <string name="do_you_have_any_of_the_following">Do you have any of the following?</string>
-    <string name="fever_100_4">Fever (100.4+)</string>
-    <string name="feverish_chills_shaking">Feverish(chills,shaking)</string>
-    <string name="cough">Cough</string>
-    <string name="mild_or_moderate_difficulty_breathing">Mild or moderate difficulty breathing</string>
-    <string name="fatique">Fatique</string>
-    <string name="sore_throat">Sore Throat</string>
+    <string name="checkbox_text_1">Fever (100.4+)</string>
+    <string name="checkbox_text_2">Feverish(chills,shaking)</string>
+    <string name="checkbox_text_3">Cough</string>
+    <string name="checkbox_text_4">Mild or moderate difficulty breathing</string>
+    <string name="checkbox_text_5">Fatique</string>
+    <string name="checkbox_text_6">Sore Throat</string>
     <string name="continue_text">Continue</string>
     <string name="ok_text">OK</string>
 
@@ -137,8 +135,11 @@ Go to the nearest hospital."
     <string name="Do_not_touch_your_eyes">Don’t touch your eyes, nose or mouth</string>
     <string name="sneeze">Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze</string>
     <string name="Stay_home_if_you_feel_unwell">Stay home if you feel unwell</string>
-    <string name="seek_medical_attention">If you have a fever, cough and difficulty breathing, seek medical attention</string>
+    <string name="seek_medical_attention">"If you have a fever, cough and difficulty breathing, seek medical attention"</string>
+    <string name="advices">advices</string>
+    <string name="global_cases">Global Cases</string>
+    <string name="egyption_cases">Egyption Cases</string>
+    <string name="the_latest_news">The Latest News</string>
 
-    
 
 </resources>
