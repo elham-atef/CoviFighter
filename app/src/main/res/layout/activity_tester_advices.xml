@@ -30,7 +30,6 @@
         android:layout_margin="8dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="vertical"
-
         tools:context=".TesterAdvices"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
