@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutActivity"/>
-        <activity android:name=".CoronaActivity"/>
-        <activity android:name=".CheckYourselfActivity"/>
-        <activity android:name=".QuarantineRulesActivity"/>
-        <activity android:name=".YouAreFineActivity"/>
-        <activity android:name=".YouAreSickActivity"/>
-        <activity android:name=".TesterAdvices"/>
+        <activity android:name=".NotificationMessage"></activity>
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".CoronaActivity" />
+        <activity android:name=".CheckYourselfActivity" />
+        <activity android:name=".QuarantineRulesActivity" />
+        <activity android:name=".YouAreFineActivity" />
+        <activity android:name=".YouAreSickActivity" />
+        <activity android:name=".TesterAdvices" />
         <activity android:name=".Home" />
         <activity
             android:name=".splashScreen"
@@ -26,7 +27,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+
+        <receiver android:name=".AlarmBrodcast" />
+        <receiver
+            android:name=".BootUpReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

@@ -38,4 +38,12 @@ class Home : AppCompatActivity() {
             .commit()
     }
 
+    override fun onBackPressed() {
+        if (navigation.getSelectedItemId() == R.id.navigation_home) {
+            super.onBackPressed()
+            finish()
+        } else {
+            navigation.setSelectedItemId(R.id.navigation_home)
+        }
+    }
 }
