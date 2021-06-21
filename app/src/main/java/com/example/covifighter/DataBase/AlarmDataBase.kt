@@ -20,7 +20,7 @@ abstract class AlarmDataBase :RoomDatabase() {
                 context, AlarmDataBase::class.java, DATABASE_NAME
             )
                 .allowMainThreadQueries()
-                //.fallbackToDestructiveMigration()
+                fallbackToDestructiveMigration()
                 .build()
             return alarmDataBase
         }
