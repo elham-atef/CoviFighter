@@ -24,9 +24,6 @@ open class AdvicesFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-
-        val handler= Handler().postDelayed(Runnable {
-
             //it used to make context in fragment
             val context: Context? = activity
 
@@ -34,9 +31,6 @@ open class AdvicesFragment : Fragment() {
             val intent = Intent(context, TesterAdvices::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
-        }, 0)
-
-
 
 
     }

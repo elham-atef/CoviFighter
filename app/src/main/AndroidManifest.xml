@@ -16,7 +16,9 @@
         <activity android:name=".QuarantineRulesActivity" />
         <activity android:name=".YouAreFineActivity" />
         <activity android:name=".YouAreSickActivity" />
-        <activity android:name=".TesterAdvices" />
+        <activity android:name=".TesterAdvices"
+            android:label="@string/advices"/>
+        <activity android:name=".YourAllarms"/>
         <activity android:name=".Home" />
         <activity
             android:name=".splashScreen"
@@ -40,6 +42,7 @@
         </receiver>
 
         <activity android:name=".MainActivity" />
+        <activity android:name=".CreateEvent"></activity>
     </application>
 
 </manifest>

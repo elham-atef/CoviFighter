@@ -29,19 +29,21 @@ class TesterAdvices : AppCompatActivity() {
 
         val item =ArrayList<Container>()
 
-             item.add(Container("Clean your hands often. Use soap and water, or an alcohol-based hand rub.",
+
+  //getString(R.string.clean) -> is to get string from string file to be able to change it in any time easly
+             item.add(Container(getString(R.string.clean_your_hands),
                  R.drawable.wash_hand))
-             item.add(Container("Maintain a safe distance from anyone who is coughing or sneezing.",
+             item.add(Container(getString(R.string.maintain_a_safe_distance),
                  R.drawable.distances))
-             item.add(Container("Wear a mask when physical distancing is not possible.",
+             item.add(Container(getString(R.string.wear_a_mask),
                  R.drawable.wear_mask))
-             item.add(Container("Don’t touch your eyes, nose or mouth.",
+             item.add(Container(getString(R.string.do_not_touch_your_eyes),
                  R.drawable.touch))
-             item.add(Container("Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.",
+             item.add(Container(getString(R.string.sneeze),
                  R.drawable.cover_mouth))
-             item.add(Container("Stay home if you feel unwell.",
+             item.add(Container(getString(R.string.Stay_home_if_you_feel_unwell),
                  R.drawable.stay_home))
-             item.add(Container("If you have a fever, cough and difficulty breathing, seek medical attention.",
+             item.add(Container(getString(R.string.seek_medical_attention),
                  R.drawable.doctor))
         return item
 
