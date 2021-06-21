@@ -4,16 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TrackerFragment">
+    android:layout_gravity="center"
+    tools:context=".TrackerFragment"
+   >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tracker Fragment"
-        android:textSize="25sp"
+    <Button
+        android:id="@+id/btn_creat"
+        style="@style/Button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_exist"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/creat_alarm"
+        android:background="@drawable/buttons_shap"
+        />
+
+    <Button
+        android:id="@+id/btn_exist"
+        style="@style/Button"
+        android:background="@drawable/buttons_shap"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btn_creat"
+        android:text="@string/your_alarms"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,6 +17,7 @@
         <activity android:name=".YouAreSickActivity"/>
         <activity android:name=".TesterAdvices"
             android:label="@string/advices"/>
+        <activity android:name=".YourAllarms"/>
         <activity android:name=".Home" />
         <activity
             android:name=".splashScreen"
@@ -27,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".CreateEvent"></activity>
     </application>
 
 </manifest>
