@@ -1,11 +1,12 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.covifighter.R
 
-class AboutActivity : AppCompatActivity() {
+class QuarantineRulesActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_about)
+        setContentView(R.layout.home_quarantine_rule)
     }
 }

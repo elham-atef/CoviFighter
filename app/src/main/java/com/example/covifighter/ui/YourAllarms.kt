@@ -1,8 +1,9 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.covifighter.DataBase.AlarmDataBase
+import com.example.covifighter.R
 import com.example.covifighter.adpter.YourAlarmsAdapter
 import kotlinx.android.synthetic.main.your_allarms.*
 

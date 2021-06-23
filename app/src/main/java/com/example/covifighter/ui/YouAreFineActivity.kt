@@ -1,8 +1,9 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.covifighter.R
 import kotlinx.android.synthetic.main.you_are_fine.*
 
 class YouAreFineActivity : AppCompatActivity() {

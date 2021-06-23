@@ -1,12 +1,9 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
-import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import androidx.fragment.app.Fragment
-import com.google.android.material.internal.ContextUtils.getActivity
+import com.example.covifighter.R
 import kotlinx.android.synthetic.main.activity_home.*
 
 class Home : AppCompatActivity() {
@@ -23,6 +20,8 @@ class Home : AppCompatActivity() {
                 pushFragment(TrackerFragment())
             } else if (item.itemId == R.id.navigation_advices) {
                 pushFragment(AdvicesFragment())
+            }else if(item.itemId == R.id.navigation_chat){
+                pushFragment(ChatFragment())
             }
 
             true; // item selected

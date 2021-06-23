@@ -138,8 +138,6 @@ Go to the nearest hospital."
     <string name="seek_medical_attention">"If you have a fever, cough and difficulty breathing, seek medical attention"</string>
 
 
-
-
     <string name="egyption_cases">Egyption Cases</string>
     <string name="the_latest_news">The Latest News</string>
     <string name="global_cases">Global Cases</string>
@@ -151,4 +149,10 @@ Go to the nearest hospital."
     <string name="put_your_time">Put Your Time</string>
     <string name="ok">OK</string>
     <string name="put_your_date">Put Your Date</string>
+    <string name="peter">Peter</string>
+    <string name="suzi">Suzi</string>
+    <string name="Tomas">tomas</string>
+    <string name="Jerry">jerry</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="send">Send</string>
 </resources>
