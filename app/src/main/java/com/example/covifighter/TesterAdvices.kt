@@ -1,5 +1,6 @@
 package com.example.covifighter
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -47,5 +48,12 @@ class TesterAdvices : AppCompatActivity() {
         return item
 
 
+    }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, Home::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        startActivity(intent)
+        finish()
     }
 }

@@ -11,7 +11,7 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat.startActivity
 import kotlinx.android.synthetic.main.fragment_cases.*
 
-class CasesFragment : Fragment() {
+class CasesFragment : Fragment() , IOnBackPressed{
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -44,8 +44,6 @@ class CasesFragment : Fragment() {
         card_4.setOnClickListener(View.OnClickListener {
             openVaccineWibsite(view)
         })
-
-
 
     }
 
@@ -91,6 +89,14 @@ class CasesFragment : Fragment() {
         startActivity(browserIntent)
 
     }
+   /* fun onBackPressed(){
+        val context: Context? = activity
+        val intent = Intent(context, TesterAdvices::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        startActivity(intent)
+    }*/
+   override fun onBackPressed(): Unit {
 
+   }
 
 }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CoviFighter</string>
+    <string name="app_name">Covi Fighter</string>
     <string name="Home">Home</string>
     <string name="Cases">Cases</string>
     <string name="Tracker">Tracker</string>
@@ -112,7 +112,7 @@ Quarantine instructions:-
 
 20. If possible, the Internet, news and entertainment should be provided.
 
-21. Communal use of space, crockery and cutting tools should be minimized, and common spaces (eg kitchen and bathroom) should be well ventilated. \n "</string>
+21. Communal use of space, crockery and cutting tools should be minimized, and common spaces (eg kitchen and bathroom) should be well ventilated."</string>
     <string name="you_are_fine">"You are fine!
 Don't forget to follow the instructions."</string>
     <string name="you_are_sick">"You are sick!

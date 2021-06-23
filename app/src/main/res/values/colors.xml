@@ -10,5 +10,6 @@
     <color name="colortext">#e6e6fa</color>
     <color name="colortext_2">#E3F2FD</color>
     <color name="colortext_3">#E8EAF6</color>
+    <color name="colorGrey">#424242</color>
 
 </resources>
