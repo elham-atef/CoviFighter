@@ -20,6 +20,8 @@ class Home : AppCompatActivity() {
                 pushFragment(TrackerFragment())
             } else if (item.itemId == R.id.navigation_advices) {
                 pushFragment(AdvicesFragment())
+            }else if(item.itemId == R.id.navigation_chat){
+                pushFragment(ChatFragment())
             }
 
             true; // item selected
