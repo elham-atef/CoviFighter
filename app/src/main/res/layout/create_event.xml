@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.CreateEvent">
+    tools:context=".CreateEvent">
 
     <EditText
         android:id="@+id/alarm_name"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@id/alarm_name"
         android:layout_margin="20dp"
         android:padding="25dp"
-        android:text="@string/put_your_time"
+        android:text="@string/set_time"
         android:background="@drawable/rounded_corner"
         android:textSize="20sp"
         android:onClick="selectTime"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@id/btn_time"
         android:layout_margin="20dp"
         android:padding="25dp"
-        android:text="@string/put_your_date"
+        android:text="@string/set_date"
         android:background="@drawable/rounded_corner"
         android:textSize="20sp"
         android:onClick="selectDate"

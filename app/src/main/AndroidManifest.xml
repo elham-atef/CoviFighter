@@ -22,16 +22,6 @@
         <activity android:name=".ui.YourAllarms" />
         <activity android:name=".ui.Home" />
         <activity android:name=".NotificationMessage"></activity>
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".CoronaActivity" />
-        <activity android:name=".CheckYourselfActivity" />
-        <activity android:name=".QuarantineRulesActivity" />
-        <activity android:name=".YouAreFineActivity" />
-        <activity android:name=".YouAreSickActivity" />
-        <activity android:name=".TesterAdvices"
-            android:label="@string/advices"/>
-        <activity android:name=".YourAllarms"/>
-        <activity android:name=".Home" />
         <activity
             android:name=".ui.splashScreen"
             android:theme="@style/AppTheme.noActionBar">
@@ -41,7 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.CreateEvent" />
+        <activity android:name=".CreateEvent" />
 
         <receiver android:name=".AlarmBrodcast" />
         <receiver
@@ -55,7 +45,7 @@
         </receiver>
 
         <activity android:name=".MainActivity" />
-        <activity android:name=".CreateEvent"></activity>
+
     </application>
 
 </manifest>
