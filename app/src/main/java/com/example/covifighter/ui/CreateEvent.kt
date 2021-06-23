@@ -1,9 +1,8 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
 import android.content.DialogInterface
-import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -11,6 +10,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.covifighter.DataBase.Alarm
 import com.example.covifighter.DataBase.AlarmDataBase
+import com.example.covifighter.R
 import kotlinx.android.synthetic.main.create_event.*
 import java.util.*
 

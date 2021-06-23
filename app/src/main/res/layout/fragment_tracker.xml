@@ -5,28 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context=".TrackerFragment"
-   >
+    tools:context=".ui.TrackerFragment">
 
     <Button
-        android:id="@+id/btn_creat"
-        style="@style/Button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_exist"
-        app:layout_constraintStart_toStartOf="parent"
-        android:text="@string/creat_alarm"
+        android:id="@+id/btn_create"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
         android:background="@drawable/buttons_shap"
-        />
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/creat_alarm"
+        android:textColor="@color/colorBlack"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/btn_exist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
         android:id="@+id/btn_exist"
-        style="@style/Button"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
         android:background="@drawable/buttons_shap"
-        app:layout_constraintTop_toTopOf="parent"
+        android:padding="20dp"
+        android:text="@string/your_alarms"
+        android:textColor="@color/colorBlack"
+        android:textSize="22sp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_creat"
-        android:text="@string/your_alarms"/>
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_create" />
 </androidx.constraintlayout.widget.ConstraintLayout>

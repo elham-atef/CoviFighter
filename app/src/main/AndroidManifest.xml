@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutActivity"/>
-        <activity android:name=".CoronaActivity"/>
-        <activity android:name=".CheckYourselfActivity"/>
-        <activity android:name=".QuarantineRulesActivity"/>
-        <activity android:name=".YouAreFineActivity"/>
-        <activity android:name=".YouAreSickActivity"/>
-        <activity android:name=".TesterAdvices"
+        <activity android:name=".ui.AboutActivity"/>
+        <activity android:name=".ui.CoronaActivity"/>
+        <activity android:name=".ui.CheckYourselfActivity"/>
+        <activity android:name=".ui.QuarantineRulesActivity"/>
+        <activity android:name=".ui.YouAreFineActivity"/>
+        <activity android:name=".ui.YouAreSickActivity"/>
+        <activity android:name=".ui.TesterAdvices"
             android:label="@string/advices"/>
-        <activity android:name=".YourAllarms"/>
-        <activity android:name=".Home" />
+        <activity android:name=".ui.YourAllarms"/>
+        <activity android:name=".ui.Home" />
         <activity
-            android:name=".splashScreen"
+            android:name=".ui.splashScreen"
             android:theme="@style/AppTheme.noActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CreateEvent"></activity>
+        <activity android:name=".ui.CreateEvent"></activity>
     </application>
 
 </manifest>

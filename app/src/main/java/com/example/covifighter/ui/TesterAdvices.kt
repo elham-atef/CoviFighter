@@ -1,9 +1,8 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import com.example.covifighter.R
 import com.example.covifighter.adpter.AdvicesAdapter
 import com.example.covifighter.models.Container
 import kotlinx.android.synthetic.main.activity_tester_advices.*
@@ -31,19 +30,26 @@ class TesterAdvices : AppCompatActivity() {
 
   //getString(R.string.clean) -> is to get string from string file to be able to change it in any time easly
              item.add(Container(getString(R.string.clean_your_hands),
-                 R.drawable.wash_hand))
+                 R.drawable.wash_hand
+             ))
              item.add(Container(getString(R.string.maintain_a_safe_distance),
-                 R.drawable.distances))
+                 R.drawable.distances
+             ))
              item.add(Container(getString(R.string.wear_a_mask),
-                 R.drawable.wear_mask))
+                 R.drawable.wear_mask
+             ))
              item.add(Container(getString(R.string.do_not_touch_your_eyes),
-                 R.drawable.touch))
+                 R.drawable.touch
+             ))
              item.add(Container(getString(R.string.sneeze),
-                 R.drawable.cover_mouth))
+                 R.drawable.cover_mouth
+             ))
              item.add(Container(getString(R.string.Stay_home_if_you_feel_unwell),
-                 R.drawable.stay_home))
+                 R.drawable.stay_home
+             ))
              item.add(Container(getString(R.string.seek_medical_attention),
-                 R.drawable.doctor))
+                 R.drawable.doctor
+             ))
         return item
 
 

@@ -1,9 +1,10 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.covifighter.R
 
 class splashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +13,7 @@ class splashScreen : AppCompatActivity() {
 
         //go from splash activity to another activity(home activity)
         val handler=Handler().postDelayed(Runnable {
-            val intent=Intent(this,Home::class.java)
+            val intent=Intent(this, Home::class.java)
             startActivity(intent)
             finish()
         }

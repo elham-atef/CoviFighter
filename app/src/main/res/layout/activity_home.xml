@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home">
+    tools:context=".ui.Home">
 
     <FrameLayout
         android:id="@+id/fragment_container"
@@ -13,8 +13,8 @@
         app:layout_constraintBottom_toTopOf="@id/navigation"
         app:layout_constraintTop_toTopOf="parent" />
 
-        android:background="@color/colorWhite" />
-    
+    android:background="@color/colorWhite" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="match_parent"

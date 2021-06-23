@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CreateEvent">
+    tools:context=".ui.CreateEvent">
 
     <EditText
         android:id="@+id/alarm_name"
@@ -24,8 +24,8 @@
 
     <Button
         android:id="@+id/btn_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/alarm_name"
@@ -35,14 +35,12 @@
         android:background="@drawable/rounded_corner"
         android:textSize="20sp"
         android:onClick="selectTime"
-
-
         />
 
     <Button
         android:id="@+id/btn_date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_time"
@@ -52,13 +50,12 @@
         android:background="@drawable/rounded_corner"
         android:textSize="20sp"
         android:onClick="selectDate"
-
         />
 
     <Button
         android:id="@+id/btn_ok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_date"
@@ -67,7 +64,5 @@
         android:text="@string/ok"
         android:background="@drawable/rounded_corner"
         android:textSize="20sp"
-
-
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
