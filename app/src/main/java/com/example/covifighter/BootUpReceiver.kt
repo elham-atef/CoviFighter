@@ -7,7 +7,7 @@ import android.content.Intent
 
 class BootUpReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
-        val intent1 = Intent(context, MainActivity::class.java)
+        val intent1 = Intent(context, CreateEvent::class.java)
         intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         context.startActivity(intent1)
     }

@@ -27,13 +27,20 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/flashlight"
+            android:id="@+id/message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="It's time to take your medicine"
             android:textColor="@color/colorBlack"
             app:layout_constraintStart_toEndOf="@id/notification_icon"
             app:layout_constraintTop_toTopOf="@id/notification_icon" />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toEndOf="@id/notification_icon"
+            app:layout_constraintTop_toBottomOf="@id/message" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

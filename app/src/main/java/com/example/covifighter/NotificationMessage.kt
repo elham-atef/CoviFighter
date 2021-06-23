@@ -7,13 +7,13 @@ import kotlinx.android.synthetic.main.activity_notification_message.*
 
 
 class NotificationMessage : AppCompatActivity() {
-    val textView :TextView = tv_message
+    lateinit var textView :TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_notification_message)
-
-        val bundle = intent.extras
+        textView = tv_message
+        val bundle :Bundle? = intent.extras
         textView.setText(bundle!!.getString("message"))
     }
 }

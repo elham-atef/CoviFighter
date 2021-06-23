@@ -28,18 +28,18 @@ class AlarmBrodcast : BroadcastReceiver() {
         val notificationManager =
             context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         val mBuilder = NotificationCompat.Builder(context, "notify_001")
-        val contentView = RemoteViews(context.packageName, R.layout.activity_notification_message)
+        val contentView = RemoteViews(context.packageName, R.layout.notification_layout)
         contentView.setImageViewResource(R.id.image, R.mipmap.ic_launcher)
         val pendingSwitchIntent = PendingIntent.getBroadcast(context, 0, intent, 0)
         contentView.setOnClickPendingIntent(R.id.flashButton, pendingSwitchIntent)
         contentView.setTextViewText(R.id.message, text)
-      //  contentView.setTextViewText(R.id.date, date)
-        mBuilder.setSmallIcon(R.drawable.ic_alarm_white_24dp)
-        mBuilder.setAutoCancel(true)
+        contentView.setTextViewText(R.id.date, date)
+        mBuilder.setSmallIcon(R.drawable.medicine3)
+        mBuilder.setAutoCancel(false)
         mBuilder.setOngoing(true)
-        mBuilder.priority = Notification.PRIORITY_HIGH
+        mBuilder.priority = (NotificationCompat.PRIORITY_HIGH)
         mBuilder.setOnlyAlertOnce(true)
-        mBuilder.build().flags = Notification.FLAG_NO_CLEAR or Notification.PRIORITY_HIGH
+        mBuilder.build().flags = Notification.FLAG_NO_CLEAR or NotificationCompat.PRIORITY_HIGH
         mBuilder.setContent(contentView)
         mBuilder.setContentIntent(pendingIntent)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
