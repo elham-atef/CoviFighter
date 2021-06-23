@@ -155,4 +155,6 @@ Go to the nearest hospital."
     <string name="Jerry">jerry</string>
     <string name="type_a_message">Type a message...</string>
     <string name="send">Send</string>
+    <string name="set_time">Set Time</string>
+    <string name="set_date">Set Date</string>
 </resources>
