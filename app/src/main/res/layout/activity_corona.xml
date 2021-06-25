@@ -9,7 +9,7 @@
     app:cardCornerRadius="20dp"
     app:cardPreventCornerOverlap="true"
     app:cardUseCompatPadding="true"
-    tools:context=".CoronaActivity">
+    tools:context=".ui.CoronaActivity">
 
     <ScrollView
         android:layout_width="match_parent"

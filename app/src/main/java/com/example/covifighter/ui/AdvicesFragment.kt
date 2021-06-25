@@ -1,13 +1,13 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.covifighter.R
 
 
 open class AdvicesFragment : Fragment() {
@@ -24,9 +24,6 @@ open class AdvicesFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-
-        val handler= Handler().postDelayed(Runnable {
-
             //it used to make context in fragment
             val context: Context? = activity
 
@@ -34,9 +31,6 @@ open class AdvicesFragment : Fragment() {
             val intent = Intent(context, TesterAdvices::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
-        }, 0)
-
-
 
 
     }

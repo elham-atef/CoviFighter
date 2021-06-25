@@ -1,6 +1,5 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
-import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -8,10 +7,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat.startActivity
+import com.example.covifighter.R
 import kotlinx.android.synthetic.main.fragment_cases.*
 
-class CasesFragment : Fragment() {
+class CasesFragment : Fragment() , IOnBackPressed{
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -44,8 +43,6 @@ class CasesFragment : Fragment() {
         card_4.setOnClickListener(View.OnClickListener {
             openVaccineWibsite(view)
         })
-
-
 
     }
 
@@ -91,6 +88,14 @@ class CasesFragment : Fragment() {
         startActivity(browserIntent)
 
     }
+   /* fun onBackPressed(){
+        val context: Context? = activity
+        val intent = Intent(context, TesterAdvices::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        startActivity(intent)
+    }*/
+   override fun onBackPressed(): Unit {
 
+   }
 
 }

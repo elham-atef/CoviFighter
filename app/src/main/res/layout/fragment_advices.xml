@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:layout_marginBottom="8dp"
-    tools:context=".TesterAdvices"
+    tools:context=".ui.TesterAdvices"
     >
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,9 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.covifighter.R
 import kotlinx.android.synthetic.main.you_are_sick.*
 
 class YouAreSickActivity :AppCompatActivity(){

@@ -12,14 +12,19 @@
         android:icon="@drawable/ic_cases"
         />
     <item
-        android:id="@+id/navigation_tracker"
-        android:title="@string/Tracker"
-        android:icon="@drawable/ic_tracker"
-        />
-    <item
         android:id="@+id/navigation_advices"
         android:title="@string/Advices"
         android:icon="@drawable/ic_advice"
         />
+    <item
+        android:id="@+id/navigation_tracker"
+        android:title="Medicine Alarm"
+        android:icon="@drawable/ic_alarm"
+        />
+    <item
+    android:id="@+id/navigation_chat"
+    android:title="Chat"
+    android:icon="@drawable/ic_chat"/>
+
 
 </menu>

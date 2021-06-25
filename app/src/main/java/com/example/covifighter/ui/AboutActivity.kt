@@ -1,12 +1,12 @@
-package com.example.covifighter
+package com.example.covifighter.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.covifighter.R
 
-class CoronaActivity : AppCompatActivity() {
+class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_corona)
-
+        setContentView(R.layout.activity_about)
     }
 }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CoviFighter</string>
+    <string name="app_name">Covi Fighter</string>
     <string name="Home">Home</string>
     <string name="Cases">Cases</string>
     <string name="Tracker">Tracker</string>
@@ -65,7 +65,7 @@ In rare situations, children can develop a severe inflammatory syndrome a few we
 
 The Pfizer/BioNtech Comirnaty vaccine was listed for WHO Emergency Use Listing (EUL) on 31 December 2020. The SII/Covishield and AstraZeneca/AZD1222 vaccines (developed by AstraZeneca/Oxford and manufactured by the State Institute of India and SK Bio respectively) were given EUL on 16 February. The Janssen/Ad26.COV 2.S developed by Johnson and Johnson, was listed for EUL on 12 March 2021. The Moderna COVID-19 vaccine (mRNA 1273) was listed for EUL on 30 April 2021 and the Sinopharm COVID-19 vaccine was listed for EUL on 7 May 2021. The Sinopharm vaccine is produced by Beijing Bio-Institute of Biological Products Co Ltd, subsidiary of China National Biotec Group (CNBG). The Sinovac-CoronaVac was listed for EUL on 1 June 2021."</string>
     <string name="question_6">"What can I do to protect myself?"</string>
-    <string name="answer_6">"Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand and respiratory hygiene, and safe food practices  and avoiding close contact, when possible, with anyone showing symptoms of respiratory illness such as coughing and sneezing."</string>
+    <string name="answer_6">"Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand and respiratory hygiene, and safe food practices  and avoiding close contact, when possible, with anyone showing symptoms of respiratory illness such as coughing and sneezing. \n \n "</string>
     <string name="quarantine_instraction">"Who should be quarantined?
 
 The World Health Organization recommends that all contacts of individuals with confirmed or probable COVID-19 infection be isolated in a designated facility or at home for a period of 14 days counting from last exposure.
@@ -129,18 +129,13 @@ Go to the nearest hospital."
     <string name="continue_text">Continue</string>
     <string name="ok_text">OK</string>
 
-    <string name="Clean_your_hands">Clean your hands often. Use soap and water, or an alcohol-based hand rub</string>
-    <string name="Maintain_a_safe_distance">Maintain a safe distance from anyone who is coughing or sneezing</string>
-    <string name="Wear_a_mask">Wear a mask when physical distancing is not possible</string>
-    <string name="Do_not_touch_your_eyes">Don’t touch your eyes, nose or mouth</string>
+    <string name="clean_your_hands">Clean your hands often. Use soap and water, or an alcohol-based hand rub</string>
+    <string name="maintain_a_safe_distance">Maintain a safe distance from anyone who is coughing or sneezing</string>
+    <string name="wear_a_mask">Wear a mask when physical distancing is not possible</string>
+    <string name="do_not_touch_your_eyes">Don’t touch your eyes, nose or mouth</string>
     <string name="sneeze">Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze</string>
     <string name="Stay_home_if_you_feel_unwell">Stay home if you feel unwell</string>
     <string name="seek_medical_attention">"If you have a fever, cough and difficulty breathing, seek medical attention"</string>
-    <string name="advices">advices</string>
-    <string name="global_cases">Global Cases</string>
-    <string name="egyption_cases">Egyption Cases</string>
-    <string name="the_latest_news">The Latest News</string>
-
 
 
     <string name="egyption_cases">Egyption Cases</string>
@@ -148,4 +143,18 @@ Go to the nearest hospital."
     <string name="global_cases">Global Cases</string>
     <string name="advices">Advices</string>
     <string name="vaccine_link">vaccine link</string>
+    <string name="creat_alarm">Creat Alarm</string>
+    <string name="your_alarms">Your Alarms</string>
+    <string name="type_your_alarm_name">Type Your Alarm Name</string>
+    <string name="put_your_time">Put Your Time</string>
+    <string name="ok">OK</string>
+    <string name="put_your_date">Put Your Date</string>
+    <string name="peter">Peter</string>
+    <string name="suzi">Suzi</string>
+    <string name="Tomas">tomas</string>
+    <string name="Jerry">jerry</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="send">Send</string>
+    <string name="set_time">Set Time</string>
+    <string name="set_date">Set Date</string>
 </resources>
