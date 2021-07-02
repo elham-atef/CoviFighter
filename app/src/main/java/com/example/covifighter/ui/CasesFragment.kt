@@ -1,5 +1,6 @@
 package com.example.covifighter.ui
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -10,7 +11,7 @@ import android.view.ViewGroup
 import com.example.covifighter.R
 import kotlinx.android.synthetic.main.fragment_cases.*
 
-class CasesFragment : Fragment() , IOnBackPressed{
+class CasesFragment : Fragment(){
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -88,14 +89,12 @@ class CasesFragment : Fragment() , IOnBackPressed{
         startActivity(browserIntent)
 
     }
-   /* fun onBackPressed(){
+    fun onBackPressed() {
         val context: Context? = activity
         val intent = Intent(context, TesterAdvices::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
-    }*/
-   override fun onBackPressed(): Unit {
 
-   }
+    }
 
 }
