@@ -158,5 +158,8 @@ Go to the nearest hospital."
     <string name="set_time">Set Time</string>
     <string name="set_date">Set Date</string>
     <string name="covi">CoviFighter is a free mobile application developed to raise awareness among the population in Egypt and to keep our community informed, healthy, safe and to decrease the spread of the corona virus.</string>
-    <string name="developers"><![CDATA[Developed by E&H]]></string>
+    <string name="developers">"Developed by
+
+     Elham Atef &amp; Heba Abdelhakeem"</string>
+    <string name="medalarm">MedAlarm</string>
 </resources>

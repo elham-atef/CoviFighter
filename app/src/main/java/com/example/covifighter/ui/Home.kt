@@ -17,7 +17,7 @@ class Home : AppCompatActivity() {
             } else if (item.itemId == R.id.navigation_cases) {
                 pushFragment(CasesFragment())
             } else if (item.itemId == R.id.navigation_tracker) {
-                pushFragment(TrackerFragment())
+                pushFragment(AlarmFragment())
             } else if (item.itemId == R.id.navigation_advices) {
                 pushFragment(AdvicesFragment())
             }else if(item.itemId == R.id.navigation_chat){
@@ -29,7 +29,7 @@ class Home : AppCompatActivity() {
         navigation.selectedItemId = R.id.navigation_home
     }
 
-    // fun that push fragment of item selected
+    // function that push fragment of item selected
     fun pushFragment(fragment: Fragment) {
         supportFragmentManager
             .beginTransaction()

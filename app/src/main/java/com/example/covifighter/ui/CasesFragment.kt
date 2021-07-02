@@ -1,6 +1,5 @@
 package com.example.covifighter.ui
 
-import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -89,12 +88,4 @@ class CasesFragment : Fragment(){
         startActivity(browserIntent)
 
     }
-    fun onBackPressed() {
-        val context: Context? = activity
-        val intent = Intent(context, TesterAdvices::class.java)
-        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-        startActivity(intent)
-
-    }
-
 }

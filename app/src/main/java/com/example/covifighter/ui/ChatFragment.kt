@@ -21,8 +21,11 @@ import com.example.covifighter.R
      }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        val context: Context? = activity
-        val intent = Intent(context,ChatActivity::class.java)
+        super.onViewCreated(view, savedInstanceState)
+
+        val context1: Context? = activity
+        val intent = Intent(context1, ChatActivity ::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
     }
 }

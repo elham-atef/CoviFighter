@@ -1,5 +1,4 @@
 package com.example.covifighter.ui
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,26 +8,17 @@ import com.example.covifighter.models.Container
 import kotlinx.android.synthetic.main.activity_tester_advices.*
 
 class TesterAdvices : AppCompatActivity() {
-
     lateinit var adapter:AdvicesAdapter
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tester_advices)
-
         val data=createListAdapter()
         adapter= AdvicesAdapter(data)
         recycler_view.adapter=adapter
-
-
     }
-
     //fun to show each element in recyclerview
     private fun createListAdapter():List<Container> {
-
         val item =ArrayList<Container>()
-
-
   //getString(R.string.clean) -> is to get string from string file to be able to change it in any time easly
              item.add(Container(getString(R.string.clean_your_hands),
                  R.drawable.wash_hand
@@ -52,8 +42,6 @@ class TesterAdvices : AppCompatActivity() {
                  R.drawable.doctor
              ))
         return item
-
-
     }
     override fun onBackPressed() {
         super.onBackPressed()
@@ -63,3 +51,5 @@ class TesterAdvices : AppCompatActivity() {
         finish()
     }
 }
+
+

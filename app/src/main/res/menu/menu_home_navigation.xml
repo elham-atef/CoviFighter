@@ -18,7 +18,7 @@
         />
     <item
         android:id="@+id/navigation_tracker"
-        android:title="Medicine Alarm"
+        android:title="@string/medalarm"
         android:icon="@drawable/ic_alarm"
         />
     <item
