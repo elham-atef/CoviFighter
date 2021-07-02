@@ -1,5 +1,4 @@
 package com.example.covifighter.ui
-
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle

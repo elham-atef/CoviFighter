@@ -5,64 +5,59 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/g_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5"
-        />
+        app:layout_constraintGuide_percent="0.5" />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/g_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5"
-        />
-
+        app:layout_constraintGuide_percent="0.5" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_1"
         style="@style/CardStyle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/g_1"
         app:layout_constraintBottom_toTopOf="@id/g_2"
+        app:layout_constraintEnd_toStartOf="@id/g_1"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints">
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/map"
             android:layout_gravity="center_horizontal"
-            />
+            android:src="@drawable/map" />
+
         <TextView
             android:id="@+id/text_1"
             style="@style/TextStyle"
             android:text="@string/global_cases" />
-
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_2"
         style="@style/CardStyle"
+        app:layout_constraintBottom_toTopOf="@id/g_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/g_1"
-        app:layout_constraintBottom_toTopOf="@id/g_2"
         tools:ignore="MissingConstraints">
 
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:src="@drawable/flag"
-            android:layout_marginTop="15dp"
             android:layout_gravity="center_horizontal"
-            />
+            android:layout_marginTop="15dp"
+            android:src="@drawable/flag" />
+
         <TextView
             android:id="@+id/text_2"
             style="@style/TextStyle"
             android:text="@string/egyption_cases" />
-
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -76,10 +71,9 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="70dp"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/news"
             android:layout_gravity="center_horizontal"
-            />
+            android:layout_marginTop="8dp"
+            android:src="@drawable/news" />
 
         <TextView
             android:id="@+id/text_3"
@@ -90,27 +84,24 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/card_4"
         style="@style/CardStyle"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/g_1"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/g_2"
         tools:ignore="MissingConstraints">
 
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/vaccine"
             android:layout_gravity="center_horizontal"
-            />
+            android:layout_marginTop="8dp"
+            android:src="@drawable/vaccine" />
 
         <TextView
             android:id="@+id/text_4"
             style="@style/TextStyle"
-            android:text="vaccine link" />
-
+            android:text="@string/vaccine_link" />
     </androidx.cardview.widget.CardView>
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

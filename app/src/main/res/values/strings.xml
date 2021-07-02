@@ -145,7 +145,7 @@ Go to the nearest hospital."
     <string name="vaccine_link">vaccine link</string>
     <string name="creat_alarm">Creat Alarm</string>
     <string name="your_alarms">Your Alarms</string>
-    <string name="type_your_alarm_name">Type Your Alarm Name</string>
+    <string name="type_your_medicine_name">Type Your Medicine Name</string>
     <string name="put_your_time">Put Your Time</string>
     <string name="ok">OK</string>
     <string name="put_your_date">Put Your Date</string>
@@ -157,4 +157,5 @@ Go to the nearest hospital."
     <string name="send">Send</string>
     <string name="set_time">Set Time</string>
     <string name="set_date">Set Date</string>
+    <string name="medalarm">MedAlarm</string>
 </resources>

@@ -4,6 +4,11 @@
         android:bottomLeftRadius="20dp"
         android:bottomRightRadius="20dp"
         android:topLeftRadius="0dp"
-        android:topRightRadius="20dp" />
+        android:topRightRadius="20dp" >
+    </corners>
+
+    <!-- This is the border color -->
+    <stroke android:width="2dp" android:color="#070D10" />
+
 
 </shape>

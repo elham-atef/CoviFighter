@@ -3,6 +3,7 @@ package com.example.covifighter
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import com.example.covifighter.ui.AlarmFragment
 
 
 class BootUpReceiver : BroadcastReceiver() {

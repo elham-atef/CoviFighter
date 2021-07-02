@@ -11,7 +11,7 @@ import com.example.covifighter.R
 import com.example.covifighter.models.Message
 import kotlinx.android.synthetic.main.message_shape.view.*
 
-class MessagAdapter:RecyclerView.Adapter<MessagAdapter.MessageViewHolder>() {
+class MessagAdapter :RecyclerView.Adapter<MessagAdapter.MessageViewHolder>() {
 
 
     var messagesList = mutableListOf<Message>()
@@ -21,8 +21,8 @@ class MessagAdapter:RecyclerView.Adapter<MessagAdapter.MessageViewHolder>() {
             itemView.setOnClickListener {
 
                 //Remove message on the item clicked
-                messagesList.removeAt(adapterPosition)
-                notifyItemRemoved(adapterPosition)
+                messagesList.removeAt(absoluteAdapterPosition)
+                notifyItemRemoved(absoluteAdapterPosition)
             }
         }
     }
